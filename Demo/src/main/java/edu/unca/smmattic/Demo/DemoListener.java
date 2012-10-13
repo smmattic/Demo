@@ -1,4 +1,4 @@
-package edu.unca.rbruce.Demo;
+package edu.unca.smmattic.Demo;
 
 import java.text.MessageFormat;
 

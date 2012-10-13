@@ -1,5 +1,5 @@
 # This is a sample plugin.yml
-# For more infomration refer to http://wiki.bukkit.org/Plugin_YAML
+# For more information refer to http://wiki.bukkit.org/Plugin_YAML
 main: edu.unca.rbruce.Demo.Demo
 name: Demo
 version: ${project.version}
@@ -7,7 +7,7 @@ author: SampleAuthor
 description: ${project.description}
 commands:
   demo:
-    description: the based for this plugin
+    description: the base for this plugin
     usage: /<demo> command 
     permission: demo.*
 permissions:
@@ -19,3 +19,7 @@ permissions:
         description: gives permission to set the sample message using the sample command
       demo.cake:
         description: give the player a block of cake
+      demo.kick:
+        description: kick the specified player out of the game
+      demo.fly:
+        description: gives tnt
