@@ -22,4 +22,4 @@ permissions:
       demo.kick:
         description: kick the specified player out of the game
       demo.fly:
-        description: gives tnt
+        description: allows player flight with command fly
